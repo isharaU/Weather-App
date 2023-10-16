@@ -11,3 +11,4 @@ for city in data['List']:
     city_codes.append(city['CityCode'])
 
 print(city_codes)
+
