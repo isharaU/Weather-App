@@ -1,1 +1,1 @@
-# Fidenz-Technologies---Front-end-Assignment
+# Front-end-Assignment
