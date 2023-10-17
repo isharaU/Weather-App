@@ -7,14 +7,17 @@ const SearchBar = () => {
 
   return (
     <div class="searchBar">
-      <input className="searchInput"
+      <input
+        className="searchInput"
         type="search"
         placeholder="Enter a City"
         value={searchInput}
         // event listner
         onChange={(event) => setSearchInput(event.target.value)}
       />
-      <button onClick={filterData} className="button">Add City</button>
+      <button onClick={filterData} className="button">
+        Add City
+      </button>
     </div>
   );
 };
