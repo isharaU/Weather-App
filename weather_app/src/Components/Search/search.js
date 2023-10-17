@@ -1,22 +1,20 @@
-import './search.css'
-import React, { useState } from 'react';
-
+import "./search.css";
+import React, { useState } from "react";
 
 const SearchBar = () => {
   const [searchInput, setSearchInput] = useState(null);
-  const filterData = () => {
-  };
+  const filterData = () => {};
 
   return (
-    <div>
-      <input
+    <div class="searchBar">
+      <input className="searchInput"
         type="search"
         placeholder="Enter a City"
         value={searchInput}
         // event listner
         onChange={(event) => setSearchInput(event.target.value)}
       />
-      <button onClick={filterData}>Add City</button>
+      <button onClick={filterData} className="button">Add City</button>
     </div>
   );
 };
